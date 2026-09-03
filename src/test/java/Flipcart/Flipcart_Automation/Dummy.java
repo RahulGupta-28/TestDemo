@@ -8,6 +8,8 @@ public class Dummy {
 	public void dummy() {
 		System.out.println("I am rahul");
 		System.out.println("I am rahul Gupta");
+		System.out.println("I am rahul Gupta ghaziabad");
+		
 	}
 	
 
