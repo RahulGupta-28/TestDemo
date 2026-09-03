@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-03T10:54:07 IST" name="Suite" finished-at="2026-09-03T10:54:54 IST" duration-ms="47009">
+    <groups>
+    </groups>
+    <test started-at="2026-09-03T10:54:07 IST" name="search" finished-at="2026-09-03T10:54:40 IST" duration-ms="32629">
+      <class name="Flipcart.Flipcart_Automation.AmazonSearch">
+        <test-method signature="searchMobile(java.util.HashMap)[pri:0, instance:Flipcart.Flipcart_Automation.AmazonSearch@673fdbce]" started-at="2026-09-03T10:54:08 IST" name="searchMobile" data-provider="getData" finished-at="2026-09-03T10:54:19 IST" duration-ms="11335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{resultItem=OnePlus N6x, product=mobile, productCategory=phone under 2000+0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMobile -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Flipcart.Flipcart_Automation.AmazonSearch@673fdbce]" started-at="2026-09-03T10:54:19 IST" name="closeBrowser" finished-at="2026-09-03T10:54:25 IST" duration-ms="5956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="searchMobile(java.util.HashMap)[pri:0, instance:Flipcart.Flipcart_Automation.AmazonSearch@673fdbce]" started-at="2026-09-03T10:54:25 IST" name="searchMobile" data-provider="getData" finished-at="2026-09-03T10:54:34 IST" duration-ms="8904" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{resultItem=Xiaomi 189 cm, product=television, productCategory=65+ inch}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMobile -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Flipcart.Flipcart_Automation.AmazonSearch@673fdbce]" started-at="2026-09-03T10:54:34 IST" name="closeBrowser" finished-at="2026-09-03T10:54:40 IST" duration-ms="6184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Flipcart.Flipcart_Automation.AmazonSearch -->
+    </test> <!-- search -->
+    <test started-at="2026-09-03T10:54:07 IST" name="bestseller" finished-at="2026-09-03T10:54:54 IST" duration-ms="47009">
+      <class name="Flipcart.Flipcart_Automation.Bestseller">
+        <test-method signature="bestseller(java.util.HashMap)[pri:0, instance:Flipcart.Flipcart_Automation.Bestseller@5dafbe45]" started-at="2026-09-03T10:54:08 IST" name="bestseller" data-provider="getData" finished-at="2026-09-03T10:54:28 IST" duration-ms="20158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productItem=Frido Cloud Comfort Slippers, ExpectedProductItem=Frido Cloud Comfort Arch Support Slippers for Women & Men}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bestseller -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Flipcart.Flipcart_Automation.Bestseller@5dafbe45]" started-at="2026-09-03T10:54:28 IST" name="closeBrowser" finished-at="2026-09-03T10:54:34 IST" duration-ms="6122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method signature="bestseller(java.util.HashMap)[pri:0, instance:Flipcart.Flipcart_Automation.Bestseller@5dafbe45]" started-at="2026-09-03T10:54:34 IST" name="bestseller" data-provider="getData" finished-at="2026-09-03T10:54:52 IST" duration-ms="18461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productItem=ASIAN Wonder-13 Men's Running Shoe, ExpectedProductItem=ASIAN Men's Wonder-13}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bestseller -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Flipcart.Flipcart_Automation.Bestseller@5dafbe45]" started-at="2026-09-03T10:54:52 IST" name="closeBrowser" finished-at="2026-09-03T10:54:54 IST" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Flipcart.Flipcart_Automation.Bestseller -->
+    </test> <!-- bestseller -->
+  </suite> <!-- Suite -->
+</testng-results>

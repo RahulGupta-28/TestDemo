@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-03T10:35:23 IST" name="Default suite" finished-at="2026-09-03T10:35:41 IST" duration-ms="17495">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberTopuop.TestNGTestRunner@65e98b1c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-09-03T10:35:23 IST" name="Default test" finished-at="2026-09-03T10:35:41 IST" duration-ms="17495">
+      <class name="CucumberTopuop.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberTopuop.TestNGTestRunner@65e98b1c]" started-at="2026-09-03T10:35:23 IST" name="setUpClass" finished-at="2026-09-03T10:35:24 IST" duration-ms="557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@680a66dd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberTopuop.TestNGTestRunner@65e98b1c]" started-at="2026-09-03T10:35:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-03T10:35:33 IST" duration-ms="8461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Product Search functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search a Product on FlipCart Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberTopuop.TestNGTestRunner@65e98b1c]" started-at="2026-09-03T10:35:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-09-03T10:35:41 IST" duration-ms="8258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Product Search functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search a Product on FlipCart Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberTopuop.TestNGTestRunner@65e98b1c]" started-at="2026-09-03T10:35:41 IST" name="tearDownClass" finished-at="2026-09-03T10:35:41 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberTopuop.TestNGTestRunner -->
+=======
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-03T18:04:44 IST" name="Default suite" finished-at="2026-09-03T18:04:44 IST" duration-ms="70">
+    <groups>
+    </groups>
+    <test started-at="2026-09-03T18:04:44 IST" name="Default test" finished-at="2026-09-03T18:04:44 IST" duration-ms="70">
+      <class name="Flipcart.Flipcart_Automation.Dummy">
+        <test-method signature="dummy()[pri:0, instance:Flipcart.Flipcart_Automation.Dummy@765d7657]" started-at="2026-09-03T18:04:44 IST" name="dummy" finished-at="2026-09-03T18:04:44 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummy -->
+      </class> <!-- Flipcart.Flipcart_Automation.Dummy -->
+>>>>>>> 85d628a (Original Framework)
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
