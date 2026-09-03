@@ -7,6 +7,7 @@ public class Dummy {
 		@Test
 	public void dummy() {
 		System.out.println("I am rahul");
+		System.out.println("I am rahul Gupta");
 	}
 	
 
